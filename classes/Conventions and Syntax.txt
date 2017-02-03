@@ -1,0 +1,44 @@
+--dot operator, period/fullstop allows access compond items
+transform.position.x
+transform has different types of transformations, position, rotation, scale
+position has different types of position, x, y, z
+x is a position, and position is a type of transformations
+
+transform.position.p
+won't work as there is no p under position
+
+transform.location.x
+also won't work, there is no location under transform
+
+--; semi colon used to terminate statements
+curley braces don't need semicolons
+
+int a = 0
+won't work
+
+int a = 0;
+works
+
+
+--indenting and formating code helps read code more easily
+
+{
+    public class class
+    {
+        int a = 5;
+    }
+}
+
+easier to read than
+
+{public class class{
+int a = 5;}}
+
+formating doesn't affect code
+both pieces of code above will run
+syntax does affect code
+
+--comments are used to comment on code, use // or /*
+comments don't affect code (if done correctly)
+and can be used to explain what parts of code does
+can also be used to disable parts of code temporaraly
