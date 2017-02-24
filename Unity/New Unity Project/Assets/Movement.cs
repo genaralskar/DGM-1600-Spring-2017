@@ -6,6 +6,7 @@ public class Movement : MonoBehaviour {
 	public int moveSpeed = 5;
 	public int rotateSpeed =180;
 
+
 	// Use this for initialization
 	void Start () {
 		
@@ -27,5 +28,6 @@ public class Movement : MonoBehaviour {
 
 		if(Input.GetKey(KeyCode.LeftArrow))
 			transform.Rotate(Vector3.up * -rotateSpeed * Time.deltaTime);
+
 	}
 }
